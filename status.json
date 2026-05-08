@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Design Squad Media",
+    "url": "https://designsquadmedia.com/",
+    "platform": "WordPress",
+    "status": "up",
+    "statusCode": 200,
+    "responseTime": 229,
+    "error": null,
+    "checkedAt": "2026-05-08T15:25:56.771Z"
+  },
+  {
+    "name": "AgroExpo",
+    "url": "https://theagroexpo.com/",
+    "platform": "WordPress",
+    "status": "up",
+    "statusCode": 200,
+    "responseTime": 172,
+    "error": null,
+    "checkedAt": "2026-05-08T15:25:56.779Z"
+  },
+  {
+    "name": "K. Fedewa Builders",
+    "url": "https://kfedewabuilders.com/",
+    "platform": "WordPress",
+    "status": "up",
+    "statusCode": 200,
+    "responseTime": 233,
+    "error": null,
+    "checkedAt": "2026-05-08T15:25:56.841Z"
+  }
+]
