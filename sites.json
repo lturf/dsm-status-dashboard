@@ -13,10 +13,5 @@
         "name": "K. Fedewa Builders",
         "url": "https://kfedewabuilders.com/",
         "platform": "WordPress"
-    },
-    {
-        "name": "Broken Test Site",
-        "url": "https://this-site-should-not-exist-12345.com",
-        "platform": "Test"
     }
 ]
