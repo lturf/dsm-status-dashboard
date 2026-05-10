@@ -5,9 +5,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 118,
+    "responseTime": 103,
     "error": null,
-    "checkedAt": "2026-05-10T13:38:34.939Z"
+    "checkedAt": "2026-05-10T14:38:39.518Z"
   },
   {
     "name": "AgroExpo",
@@ -15,9 +15,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 89,
+    "responseTime": 125,
     "error": null,
-    "checkedAt": "2026-05-10T13:38:34.947Z"
+    "checkedAt": "2026-05-10T14:38:39.580Z"
   },
   {
     "name": "K. Fedewa Builders",
@@ -25,8 +25,8 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 166,
+    "responseTime": 140,
     "error": null,
-    "checkedAt": "2026-05-10T13:38:35.025Z"
+    "checkedAt": "2026-05-10T14:38:39.596Z"
   }
 ]
