@@ -9,14 +9,58 @@ async function checkSite(site) {
     const res = await fetch(site.url, { signal: AbortSignal.timeout(10000) });
     const responseTime = Date.now() - start;
 
+    const html = await res.text();
+    const lowerHtml = html.toLowerCase();
+
+    const issuePhrases = [
+      'site has been suspended',
+      'account suspended',
+      'this site is currently unavailable',
+      'site suspended',
+      'website suspended',
+      'domain suspended',
+      'page not found',
+      'coming soon'
+    ];
+
+    const matchedPhrase = issuePhrases.find(phrase =>
+      lowerHtml.includes(phrase)
+    );
+
+    if (!res.ok) {
+      return {
+        name: site.name,
+        url: site.url,
+        platform: site.platform,
+        status: 'down',
+        statusCode: res.status,
+        responseTime,
+        error: `HTTP ${res.status}`,
+        checkedAt: new Date().toISOString(),
+      };
+    }
+
+    if (matchedPhrase) {
+      return {
+        name: site.name,
+        url: site.url,
+        platform: site.platform,
+        status: 'down',
+        statusCode: res.status,
+        responseTime,
+        error: `Problem phrase detected: "${matchedPhrase}"`,
+        checkedAt: new Date().toISOString(),
+      };
+    }
+
     return {
       name: site.name,
       url: site.url,
       platform: site.platform,
-      status: res.ok ? 'up' : 'down',
+      status: 'up',
       statusCode: res.status,
       responseTime,
-      error: res.ok ? null : `HTTP ${res.status}`,
+      error: null,
       checkedAt: new Date().toISOString(),
     };
   } catch (err) {
