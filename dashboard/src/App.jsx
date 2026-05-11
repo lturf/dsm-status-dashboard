@@ -5,7 +5,12 @@ function StatusCard({ site }) {
   const isUp = site.status === "up";
 
   return (
-    <div className={`status-card ${isUp ? "up" : "down"}`}>
+    <a
+      href={site.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`status-card ${isUp ? "up" : "down"}`}
+    >
       <div className="card-header">
         <h2 className="site-name">{site.name}</h2>
         <span className={`status-label ${isUp ? "online" : "offline"}`}>
@@ -20,7 +25,7 @@ function StatusCard({ site }) {
       </p>
       {site.error && <p className="error-text">Error: {site.error}</p>}
       <p className="time-checked">Last checked: {new Date(site.checkedAt).toLocaleString()}</p>
-    </div>
+    </a>
   );
 }
 
@@ -33,7 +38,7 @@ export default function App() {
     fetch(import.meta.env.BASE_URL + "status.json")
       .then((res) => res.json())
       .then((data) => {
-        // TODO: Remove this test failure site after testing is complete
+        // TODO: Remove test failure sites after testing is complete
         // data.push({
         //   name: "Test Failure Site",
         //   platform: "Shopify",
@@ -51,6 +56,7 @@ export default function App() {
         //   error: "Timeout after 5 seconds",
         //   checkedAt: new Date().toISOString(),
         // });
+        ////////////////////////////////////////
 
         setSites(data);
         setLoading(false);

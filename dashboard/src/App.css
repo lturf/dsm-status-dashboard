@@ -19,10 +19,34 @@
     0 0 20px rgba(2, 195, 255, 0.06);
 
   padding: 24px;
+
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
+
+  text-decoration: none;
+
+  color: inherit;
+
+  display: block;
+
+  cursor: pointer;
+}
+
+.status-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  background: rgba(255, 255, 255, 0.07);
 }
 
 .status-card.up {
   border-color: rgba(2, 195, 255, 0.05);
+}
+
+.status-card.up:hover {
+  box-shadow:
+    0 12px 36px rgba(0, 0, 0, 0.55),
+    0 0 24px rgba(2, 195, 255, 0.15);
 }
 
 .status-card.down {
@@ -31,6 +55,13 @@
   box-shadow:
     0 8px 32px rgba(0, 0, 0, 0.45),
     0 0 20px rgba(254, 106, 1, 0.15);
+}
+
+.status-card.down:hover {
+  box-shadow:
+    0 12px 36px rgba(0, 0, 0, 0.55),
+    0 0 24px rgba(254, 106, 1, 0.32),
+    0 0 60px rgba(254, 106, 1, 0.12);
 }
 
 .status-grid {
