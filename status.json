@@ -5,9 +5,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 83,
+    "responseTime": 161,
     "error": null,
-    "checkedAt": "2026-05-11T10:55:48.769Z"
+    "checkedAt": "2026-05-11T13:21:48.613Z"
   },
   {
     "name": "AgroExpo",
@@ -15,9 +15,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 124,
+    "responseTime": 118,
     "error": null,
-    "checkedAt": "2026-05-11T10:55:48.837Z"
+    "checkedAt": "2026-05-11T13:21:48.646Z"
   },
   {
     "name": "K. Fedewa Builders",
@@ -25,8 +25,68 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 184,
+    "responseTime": 91,
     "error": null,
-    "checkedAt": "2026-05-11T10:55:48.898Z"
+    "checkedAt": "2026-05-11T13:21:48.620Z"
+  },
+  {
+    "name": "Bellingar Packing",
+    "url": "https://bellingarpacking.com/",
+    "platform": "MorrisCRM",
+    "status": "up",
+    "statusCode": 200,
+    "responseTime": 180,
+    "error": null,
+    "checkedAt": "2026-05-11T13:21:48.710Z"
+  },
+  {
+    "name": "Northwoods Whitetails",
+    "url": "https://www.northwoodswhitetails.com/",
+    "platform": "Shopify",
+    "status": "up",
+    "statusCode": 200,
+    "responseTime": 825,
+    "error": null,
+    "checkedAt": "2026-05-11T13:21:49.356Z"
+  },
+  {
+    "name": "Dave Netti Homes",
+    "url": "https://www.davenettihomes.com/",
+    "platform": "WordPress",
+    "status": "up",
+    "statusCode": 200,
+    "responseTime": 257,
+    "error": null,
+    "checkedAt": "2026-05-11T13:21:48.789Z"
+  },
+  {
+    "name": "United Solar Solutions",
+    "url": "https://unitedsolarsolutions.com/",
+    "platform": "WordPress",
+    "status": "up",
+    "statusCode": 200,
+    "responseTime": 204,
+    "error": null,
+    "checkedAt": "2026-05-11T13:21:48.737Z"
+  },
+  {
+    "name": "Mr. Asphalt",
+    "url": "https://mrasphalt.net/",
+    "platform": "MorrisCRM",
+    "status": "up",
+    "statusCode": 200,
+    "responseTime": 304,
+    "error": null,
+    "checkedAt": "2026-05-11T13:21:48.838Z"
+  },
+  {
+    "name": "Barber's Liquidation",
+    "url": "https://barbersliquidation.com/home",
+    "platform": "MorrisCRM",
+    "status": "up",
+    "statusCode": 200,
+    "responseTime": 1021,
+    "error": null,
+    "checkedAt": "2026-05-11T13:21:49.555Z"
   }
 ]
