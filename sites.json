@@ -13,5 +13,35 @@
         "name": "K. Fedewa Builders",
         "url": "https://kfedewabuilders.com/",
         "platform": "WordPress"
+    },
+    {
+        "name": "Bellingar Packing",
+        "url": "https://bellingarpacking.com/",
+        "platform": "MorrisCRM"
+    },
+    {
+        "name": "Northwoods Whitetails",
+        "url": "https://www.northwoodswhitetails.com/",
+        "platform": "Shopify"
+    },
+    {
+        "name": "Dave Netti Homes",
+        "url": "https://www.davenettihomes.com/",
+        "platform": "WordPress"
+    },
+    {
+        "name": "United Solar Solutions",
+        "url": "https://unitedsolarsolutions.com/",
+        "platform": "WordPress"
+    },
+    {
+        "name": "Mr. Asphalt",
+        "url": "https://mrasphalt.net/",
+        "platform": "MorrisCRM"
+    },
+    {
+        "name": "Barber's Liquidation",
+        "url": "https://barbersliquidation.com/home",
+        "platform": "MorrisCRM"
     }
 ]

@@ -1,40 +1,25 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
+import "./App.css";
 
 function StatusCard({ site }) {
-  const isUp = site.status === 'up';
+  const isUp = site.status === "up";
 
   return (
-    <div style={{
-      border: `2px solid ${isUp ? '#22c55e' : '#ef4444'}`,
-      borderRadius: '8px',
-      padding: '16px',
-      backgroundColor: isUp ? '#f0fdf4' : '#fef2f2',
-    }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <h2 style={{ margin: 0, fontSize: '18px' }}>{site.name}</h2>
-        <span style={{
-          fontWeight: 'bold',
-          color: isUp ? '#16a34a' : '#dc2626',
-          fontSize: '16px',
-        }}>
-          {isUp ? '✅ Online' : '❌ Down'}
+    <div className={`status-card ${isUp ? "up" : "down"}`}>
+      <div className="card-header">
+        <h2 className="site-name">{site.name}</h2>
+        <span className={`status-label ${isUp ? "online" : "offline"}`}>
+          <span className={`status-dot ${isUp ? "online" : "offline"}`}></span>
+          {isUp ? "Online" : "Down"}
         </span>
       </div>
 
-      <p style={{ margin: '8px 0 0', color: '#555', fontSize: '14px' }}>
-        Platform: {site.platform}
+      <p className="site-meta">Platform: {site.platform}</p>
+      <p className="site-meta">
+        Response time: {site.responseTime ? `${site.responseTime}ms` : "N/A"}
       </p>
-      <p style={{ margin: '4px 0 0', color: '#555', fontSize: '14px' }}>
-        Response time: {site.responseTime ? `${site.responseTime}ms` : 'N/A'}
-      </p>
-      {site.error && (
-        <p style={{ margin: '4px 0 0', color: '#dc2626', fontSize: '14px' }}>
-          Error: {site.error}
-        </p>
-      )}
-      <p style={{ margin: '4px 0 0', color: '#888', fontSize: '12px' }}>
-        Last checked: {new Date(site.checkedAt).toLocaleString()}
-      </p>
+      {site.error && <p className="error-text">Error: {site.error}</p>}
+      <p className="time-checked">Last checked: {new Date(site.checkedAt).toLocaleString()}</p>
     </div>
   );
 }
@@ -45,37 +30,56 @@ export default function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(import.meta.env.BASE_URL + 'status.json')
-      .then(res => res.json())
-      .then(data => {
+    fetch(import.meta.env.BASE_URL + "status.json")
+      .then((res) => res.json())
+      .then((data) => {
+        // TODO: Remove this test failure site after testing is complete
+        // data.push({
+        //   name: "Test Failure Site",
+        //   platform: "Shopify",
+        //   status: "down",
+        //   responseTime: null,
+        //   error: "Timeout after 10 seconds",
+        //   checkedAt: new Date().toISOString(),
+        // });
+
+        // data.push({
+        //   name: "Test Failure Site 2",
+        //   platform: "WordPress",
+        //   status: "down",
+        //   responseTime: null,
+        //   error: "Timeout after 5 seconds",
+        //   checkedAt: new Date().toISOString(),
+        // });
+
         setSites(data);
         setLoading(false);
       })
-      .catch(err => {
+      .catch((err) => {
         setError(err.message);
         setLoading(false);
       });
   }, []);
 
-  const downCount = sites.filter(s => s.status === 'down').length;
+  const downCount = sites.filter((s) => s.status === "down").length;
 
   return (
-    <div style={{ maxWidth: '800px', margin: '0 auto', padding: '32px 16px', fontFamily: 'sans-serif' }}>
-      <h1 style={{ marginBottom: '4px' }}>Website Status Dashboard</h1>
+    <div className={"container"}>
+      <h1>Website Status Dashboard</h1>
 
       {!loading && !error && (
-        <p style={{ color: downCount > 0 ? '#dc2626' : '#16a34a', marginBottom: '24px' }}>
+        <p className={`summary-text ${downCount > 0 ? "summary-down" : "summary-up"}`}>
           {downCount > 0
-            ? `⚠️ ${downCount} site${downCount > 1 ? 's are' : ' is'} down`
-            : '✅ All sites are online'}
+            ? `${downCount} site${downCount > 1 ? "s are" : " is"} down`
+            : "All sites are online"}
         </p>
       )}
 
       {loading && <p>Loading...</p>}
-      {error && <p style={{ color: 'red' }}>Failed to load status: {error}</p>}
+      {error && <p className="error-message">Failed to load status: {error}</p>}
 
-      <div style={{ display: 'grid', gap: '16px' }}>
-        {sites.map(site => (
+      <div className={"status-grid"}>
+        {sites.map((site) => (
           <StatusCard key={site.url} site={site} />
         ))}
       </div>
