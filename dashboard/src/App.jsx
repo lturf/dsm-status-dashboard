@@ -96,8 +96,19 @@ export default function App() {
           ))}
       </div>
 
-      <footer className={"footer-link"}>
-        <p>
+      <div className="request-site-wrapper">
+        <a
+          href="https://github.com/lturf/dsm-status-dashboard/issues/new?title=Add%20site%20to%20monitor&body=Site%20name%3A%0AWebsite%20URL%3A%0APlatform%20%28WordPress%2C%20Shopify%2C%20MorrisCRM%2C%20Other%29%3A%0ANotes%3A"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="request-site-button"
+        >
+          Request A Site To Monitor
+        </a>
+      </div>
+
+      <footer>
+        <p className={"footer-link"}>
           Check{" "}
           <a href="https://www.downdetector.com/" target="_blank" rel="noopener noreferrer">
             DownDetector
