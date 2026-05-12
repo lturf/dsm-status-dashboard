@@ -144,3 +144,19 @@
 .error-message {
   color: #fe6a01;
 }
+
+.footer-link {
+  margin-top: 48px;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-link a {
+  color: #02c3ff;
+  text-decoration: none;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+}

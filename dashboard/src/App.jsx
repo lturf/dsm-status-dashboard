@@ -85,10 +85,26 @@ export default function App() {
       {error && <p className="error-message">Failed to load status: {error}</p>}
 
       <div className={"status-grid"}>
-        {sites.map((site) => (
-          <StatusCard key={site.url} site={site} />
-        ))}
+        {[...sites]
+          .sort((a, b) => {
+            if (a.status === "down" && b.status !== "down") return -1;
+            if (a.status !== "down" && b.status === "down") return 1;
+            return 0;
+          })
+          .map((site) => (
+            <StatusCard key={site.url} site={site} />
+          ))}
       </div>
+
+      <footer className={"footer-link"}>
+        <p>
+          Check{" "}
+          <a href="https://www.downdetector.com/" target="_blank" rel="noopener noreferrer">
+            DownDetector
+          </a>{" "}
+          for reported outages.
+        </p>
+      </footer>
     </div>
   );
 }
