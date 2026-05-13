@@ -23,6 +23,7 @@ Each site is checked regularly to confirm that:
 * the homepage loads successfully
 * the site does not return server errors
 * the site responds within a reasonable amount of time
+* the site is not displaying common suspension or invalid-page messages
 
 
 
@@ -39,7 +40,8 @@ https://lturf.github.io/dsm-status-dashboard/
 1. GitHub Actions runs automatic site checks every 10 minutes.
 2. The monitoring script checks each configured website.
 3. Results are displayed on the live dashboard.
-4. If a site is down, Slack alerts are sent automatically.
+4. If a site goes down, a Slack alert is sent automatically.
+5. If a site comes back online, a recovery alert is sent automatically.
 
 
 
@@ -47,7 +49,7 @@ https://lturf.github.io/dsm-status-dashboard/
 
 Website outage alerts are currently sent to the Slack testing channel.
 
-Example alert:
+Example outage alert:
 
 ```text
 🚨 Website Issue Detected
@@ -55,11 +57,35 @@ Example alert:
 • Example Website (Shopify) — Timeout
 ```
 
+Example recovery alert:
+
+```text
+✅ Website Recovery Detected
+
+• Example Website (Shopify) — back online
+```
+
+
+
+## Dashboard Features
+
+The dashboard currently includes:
+
+* live website status monitoring
+* response time tracking
+* automatic sorting of failed sites to the top
+* clickable website cards
+* hover animations and interactive UI effects
+* responsive glass-style dashboard design
+* Jira request button for adding new monitored sites
+
 
 
 ## Adding or Removing Websites
 
-Websites are managed in:
+Website monitoring requests can now be submitted directly through the Jira request form linked on the dashboard.
+
+Websites can also still be managed manually in:
 
 ```text
 sites.json
@@ -90,6 +116,7 @@ After updating the file and pushing changes to GitHub, the dashboard will automa
 * GitHub Actions scheduled workflows may occasionally run a few minutes late.
 * Website status updates may take a short time to appear due to GitHub Pages caching.
 * `status.json` files are generated automatically and generally should not be edited manually.
+* GitHub Actions scheduling is used as a lightweight monitoring solution and may not always run at exact 10-minute intervals.
 
 
 
@@ -97,12 +124,14 @@ After updating the file and pushing changes to GitHub, the dashboard will automa
 
 Potential future improvements include:
 
-* recovery notifications when sites come back online
 * historical uptime tracking
-* response-time warnings
+* uptime percentage calculations
+* response-time warning states
 * SSL expiration monitoring
-* improved dashboard styling and filtering
-* duplicate alert prevention
+* advanced dashboard filtering/search
+* incident history tracking
+* admin dashboard for adding/removing websites
+* Cloudflare Worker-based scheduling for more reliable check frequency
 
 
 
