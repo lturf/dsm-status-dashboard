@@ -28,7 +28,6 @@ async function checkSite(site) {
       "website suspended",
       "domain suspended",
       "page not found",
-      "coming soon",
     ];
 
     const matchedPhrase = issuePhrases.find((phrase) => lowerHtml.includes(phrase));

@@ -1,47 +1,172 @@
 [
-    {
-        "name": "Design Squad Media",
-        "url": "https://designsquadmedia.com/",
-        "platform": "WordPress"
-    },
-    {
-        "name": "AgroExpo",
-        "url": "https://theagroexpo.com/",
-        "platform": "WordPress"
-    },
-    {
-        "name": "K. Fedewa Builders",
-        "url": "https://kfedewabuilders.com/",
-        "platform": "WordPress"
-    },
-    {
-        "name": "Bellingar Packing",
-        "url": "https://bellingarpacking.com/",
-        "platform": "MorrisCRM"
-    },
-    {
-        "name": "Northwoods Whitetails",
-        "url": "https://www.northwoodswhitetails.com/",
-        "platform": "Shopify"
-    },
-    {
-        "name": "Dave Netti Homes",
-        "url": "https://www.davenettihomes.com/",
-        "platform": "WordPress"
-    },
-    {
-        "name": "United Solar Solutions",
-        "url": "https://unitedsolarsolutions.com/",
-        "platform": "WordPress"
-    },
-    {
-        "name": "Mr. Asphalt",
-        "url": "https://mrasphalt.net/",
-        "platform": "MorrisCRM"
-    },
-    {
-        "name": "Barber's Liquidation",
-        "url": "https://barbersliquidation.com/home",
-        "platform": "MorrisCRM"
-    }
+  {
+    "name": "AgroExpo",
+    "url": "https://theagroexpo.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "Apparatus Central Repair",
+    "url": "https://apparatuscr.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Apple Barrel Cider Mill",
+    "url": "https://ithacashedsales.com/",
+    "platform": "Shopify"
+  },
+  {
+    "name": "Bellingar Packing",
+    "url": "https://bellingarpacking.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "C L Asphalt Maintenance",
+    "url": "https://cl-asphalt.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Crooked Tine Ranch",
+    "url": "https://crookedtineranch.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Dave Netti Homes",
+    "url": "https://www.davenettihomes.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "Delight Remodel & Design",
+    "url": "https://delightremodel.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "Design Squad Media",
+    "url": "https://designsquadmedia.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "Doerr Real Estate & Management",
+    "url": "https://www.doerrmanagement.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "Dynamic Outdoor Services",
+    "url": "https://dynamicoutdoorservicesmi.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Exclusive Physical Therapy",
+    "url": "https://exclusivept.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "Great Lakes Marine Insurance",
+    "url": "https://greatlakesmarineinsurance.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "K Fedewa",
+    "url": "https://kfedewabuilders.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "Leo's Painting & Associates",
+    "url": "https://leoshomepainting.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Looking Glass Brewing Company",
+    "url": "https://lookingglassbrewingcompany.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Mid-America Solar",
+    "url": "https://mid-americasolar.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "Monroe Asphalt Company",
+    "url": "https://monroeasphalt.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "MorrisCRM",
+    "url": "https://morriscrm.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Mr. Asphalt",
+    "url": "https://mrasphalt.net/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Northwoods Whitetails",
+    "url": "https://www.northwoodswhitetails.com/",
+    "platform": "Shopify"
+  },
+  {
+    "name": "Open Door Real Estate & Management",
+    "url": "https://odreintegrity.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "Premier Pavements",
+    "url": "https://www.premier-pavements.net/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Purified Home Water Systems",
+    "url": "https://purifiedhomewatersystems.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Quality Solar",
+    "url": "https://qualitysolar.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "Redwing Car Wash",
+    "url": "https://redwingcarwash.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "RSI Home Improvement",
+    "url": "https://rsihomeimprovement.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Saylor-Beall",
+    "url": "https://www.saylor-beall.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "Sewer Doctors",
+    "url": "https://sewerdrs.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "SFC Exteriors",
+    "url": "https://sfcexteriors.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Somerset Painting & Home Improvements",
+    "url": "https://somersetpainting.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "Stripe King",
+    "url": "https://stripekingllc.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "Twisted Nock Taxidermy",
+    "url": "https://twistednocktaxidermy.com/",
+    "platform": "MorrisCRM"
+  },
+  {
+    "name": "United Solar Solutions",
+    "url": "https://unitedsolarsolutions.com/",
+    "platform": "WordPress"
+  }
 ]
