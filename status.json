@@ -5,9 +5,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 173,
+    "responseTime": 166,
     "error": null,
-    "checkedAt": "2026-05-13T13:47:16.885Z"
+    "checkedAt": "2026-05-13T16:05:19.719Z"
   },
   {
     "name": "AgroExpo",
@@ -15,9 +15,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 163,
+    "responseTime": 177,
     "error": null,
-    "checkedAt": "2026-05-13T13:47:16.928Z"
+    "checkedAt": "2026-05-13T16:05:19.762Z"
   },
   {
     "name": "K. Fedewa Builders",
@@ -25,9 +25,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 198,
+    "responseTime": 191,
     "error": null,
-    "checkedAt": "2026-05-13T13:47:16.963Z"
+    "checkedAt": "2026-05-13T16:05:19.774Z"
   },
   {
     "name": "Bellingar Packing",
@@ -35,9 +35,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 273,
+    "responseTime": 410,
     "error": null,
-    "checkedAt": "2026-05-13T13:47:17.046Z"
+    "checkedAt": "2026-05-13T16:05:20.001Z"
   },
   {
     "name": "Northwoods Whitetails",
@@ -45,9 +45,9 @@
     "platform": "Shopify",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 933,
+    "responseTime": 1020,
     "error": null,
-    "checkedAt": "2026-05-13T13:47:17.709Z"
+    "checkedAt": "2026-05-13T16:05:20.615Z"
   },
   {
     "name": "Dave Netti Homes",
@@ -55,9 +55,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 362,
+    "responseTime": 1550,
     "error": null,
-    "checkedAt": "2026-05-13T13:47:17.131Z"
+    "checkedAt": "2026-05-13T16:05:21.138Z"
   },
   {
     "name": "United Solar Solutions",
@@ -65,9 +65,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 303,
+    "responseTime": 278,
     "error": null,
-    "checkedAt": "2026-05-13T13:47:17.071Z"
+    "checkedAt": "2026-05-13T16:05:19.871Z"
   },
   {
     "name": "Mr. Asphalt",
@@ -75,9 +75,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 485,
+    "responseTime": 393,
     "error": null,
-    "checkedAt": "2026-05-13T13:47:17.259Z"
+    "checkedAt": "2026-05-13T16:05:19.992Z"
   },
   {
     "name": "Barber's Liquidation",
@@ -85,8 +85,8 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 458,
+    "responseTime": 391,
     "error": null,
-    "checkedAt": "2026-05-13T13:47:17.231Z"
+    "checkedAt": "2026-05-13T16:05:19.988Z"
   }
 ]
