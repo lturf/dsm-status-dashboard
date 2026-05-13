@@ -98,7 +98,7 @@ export default function App() {
 
       <div className="request-site-wrapper">
         <a
-          href="https://github.com/lturf/dsm-status-dashboard/issues/new?title=Add%20site%20to%20monitor&body=Site%20name%3A%0AWebsite%20URL%3A%0APlatform%20%28WordPress%2C%20Shopify%2C%20MorrisCRM%2C%20Other%29%3A%0ANotes%3A"
+          href="https://designsquadmedia.atlassian.net/jira/core/form/5cad7fdf-dafe-4cc4-ac17-e2553552fed2?atlOrigin=eyJpIjoiMTNmNDllOTYwZjk5NDM5Mzg2ODFmYWRjOGRhYzc2NTgiLCJwIjoiaiJ9"
           target="_blank"
           rel="noopener noreferrer"
           className="request-site-button"
