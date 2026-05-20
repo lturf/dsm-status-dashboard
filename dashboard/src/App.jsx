@@ -38,26 +38,6 @@ export default function App() {
     fetch(import.meta.env.BASE_URL + "status.json")
       .then((res) => res.json())
       .then((data) => {
-        // TODO: Remove test failure sites after testing is complete
-        // data.push({
-        //   name: "Test Failure Site",
-        //   platform: "Shopify",
-        //   status: "down",
-        //   responseTime: null,
-        //   error: "Timeout after 10 seconds",
-        //   checkedAt: new Date().toISOString(),
-        // });
-
-        // data.push({
-        //   name: "Test Failure Site 2",
-        //   platform: "WordPress",
-        //   status: "down",
-        //   responseTime: null,
-        //   error: "Timeout after 5 seconds",
-        //   checkedAt: new Date().toISOString(),
-        // });
-        ////////////////////////////////////////
-
         setSites(data);
         setLoading(false);
       })

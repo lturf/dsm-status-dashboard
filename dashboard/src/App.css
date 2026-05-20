@@ -151,30 +151,6 @@
   margin-top: 48px;
 }
 
-/* .request-site-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-  padding: 12px 18px;
-  border-radius: 999px;
-  border: 1px solid rgba(2, 195, 255, 0.45);
-  color: #02c3ff;
-  background: rgba(2, 195, 255, 0.08);
-  text-decoration: none;
-  font-weight: 700;
-  transition:
-    background 0.2s ease,
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-.request-site-button:hover {
-  transform: translateY(-2px);
-  background: rgba(2, 195, 255, 0.14);
-  box-shadow: 0 0 24px rgba(2, 195, 255, 0.18);
-} */
-
 .request-site-button {
   position: relative;
   display: inline-flex;

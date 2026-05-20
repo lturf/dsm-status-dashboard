@@ -118,10 +118,22 @@ async function sendSlackRecoveryAlert(recoveredSites) {
   });
 }
 
+async function checkInBatches(sites, batchSize = 5) {
+  const results = [];
+
+  for (let i = 0; i < sites.length; i += batchSize) {
+    const batch = sites.slice(i, i + batchSize);
+    const batchResults = await Promise.all(batch.map(checkSite));
+    results.push(...batchResults);
+  }
+
+  return results;
+}
+
 async function main() {
   console.log(`Checking ${sites.length} sites...`);
 
-  const results = await Promise.all(sites.map(checkSite));
+  const results = await checkInBatches(sites, 5);
 
   results.forEach((r) => {
     console.log(
