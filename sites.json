@@ -137,7 +137,8 @@
   {
     "name": "Saylor-Beall",
     "url": "https://www.saylor-beall.com/",
-    "platform": "WordPress"
+    "platform": "WordPress",
+    "ignoreStatusCodes": [415]
   },
   {
     "name": "Sewer Doctors",

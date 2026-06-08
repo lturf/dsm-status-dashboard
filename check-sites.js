@@ -32,6 +32,19 @@ async function checkSite(site) {
 
     const matchedPhrase = issuePhrases.find((phrase) => lowerHtml.includes(phrase));
 
+    if (site.ignoreStatusCodes?.includes(res.status)) {
+      return {
+        name: site.name,
+        url: site.url,
+        platform: site.platform,
+        status: "up",
+        statusCode: res.status,
+        responseTime,
+        error: null,
+        checkedAt: new Date().toISOString(),
+      };
+    }
+
     if (!res.ok) {
       return {
         name: site.name,
