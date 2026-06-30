@@ -60,11 +60,6 @@
     "platform": "WordPress"
   },
   {
-    "name": "Great Lakes Marine Insurance",
-    "url": "https://greatlakesmarineinsurance.com/",
-    "platform": "MorrisCRM"
-  },
-  {
     "name": "K Fedewa",
     "url": "https://kfedewabuilders.com/",
     "platform": "WordPress"
@@ -139,11 +134,6 @@
     "url": "https://www.saylor-beall.com/",
     "platform": "WordPress",
     "ignoreStatusCodes": [415]
-  },
-  {
-    "name": "Sewer Doctors",
-    "url": "https://sewerdrs.com/",
-    "platform": "MorrisCRM"
   },
   {
     "name": "SFC Exteriors",
