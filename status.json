@@ -5,9 +5,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 501,
+    "responseTime": 544,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:44.176Z"
+    "checkedAt": "2026-08-16T10:09:00.494Z"
   },
   {
     "name": "Apparatus Central Repair",
@@ -15,9 +15,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 365,
+    "responseTime": 370,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:44.191Z"
+    "checkedAt": "2026-08-16T10:09:00.506Z"
   },
   {
     "name": "Apple Barrel Cider Mill",
@@ -25,9 +25,9 @@
     "platform": "Shopify",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 604,
+    "responseTime": 726,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:44.411Z"
+    "checkedAt": "2026-08-16T10:09:00.834Z"
   },
   {
     "name": "Bellingar Packing",
@@ -35,9 +35,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 354,
+    "responseTime": 383,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:44.186Z"
+    "checkedAt": "2026-08-16T10:09:00.511Z"
   },
   {
     "name": "C L Asphalt Maintenance",
@@ -45,9 +45,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 459,
+    "responseTime": 411,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:44.269Z"
+    "checkedAt": "2026-08-16T10:09:00.522Z"
   },
   {
     "name": "Crooked Tine Ranch",
@@ -55,9 +55,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 127,
+    "responseTime": 159,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:44.547Z"
+    "checkedAt": "2026-08-16T10:09:01.005Z"
   },
   {
     "name": "Dave Netti Homes",
@@ -65,9 +65,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 186,
+    "responseTime": 104,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:44.603Z"
+    "checkedAt": "2026-08-16T10:09:00.945Z"
   },
   {
     "name": "Delight Remodel & Design",
@@ -75,9 +75,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 177,
+    "responseTime": 217,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:44.593Z"
+    "checkedAt": "2026-08-16T10:09:01.057Z"
   },
   {
     "name": "Design Squad Media",
@@ -85,9 +85,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 211,
+    "responseTime": 154,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:44.628Z"
+    "checkedAt": "2026-08-16T10:09:00.999Z"
   },
   {
     "name": "Doerr Real Estate & Management",
@@ -95,9 +95,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 1800,
+    "responseTime": 2192,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:46.218Z"
+    "checkedAt": "2026-08-16T10:09:03.033Z"
   },
   {
     "name": "Dynamic Outdoor Services",
@@ -105,9 +105,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 163,
+    "responseTime": 223,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:46.390Z"
+    "checkedAt": "2026-08-16T10:09:03.266Z"
   },
   {
     "name": "Exclusive Physical Therapy",
@@ -115,9 +115,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 94,
+    "responseTime": 112,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:46.318Z"
+    "checkedAt": "2026-08-16T10:09:03.153Z"
   },
   {
     "name": "K Fedewa",
@@ -125,9 +125,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 210,
+    "responseTime": 267,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:46.432Z"
+    "checkedAt": "2026-08-16T10:09:03.305Z"
   },
   {
     "name": "Leo's Painting & Associates",
@@ -135,9 +135,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 259,
+    "responseTime": 276,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:46.487Z"
+    "checkedAt": "2026-08-16T10:09:03.318Z"
   },
   {
     "name": "Looking Glass Brewing Company",
@@ -145,9 +145,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 315,
+    "responseTime": 321,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:46.548Z"
+    "checkedAt": "2026-08-16T10:09:03.369Z"
   },
   {
     "name": "Mid-America Solar",
@@ -155,9 +155,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 140,
+    "responseTime": 107,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:46.692Z"
+    "checkedAt": "2026-08-16T10:09:03.479Z"
   },
   {
     "name": "Monroe Asphalt Company",
@@ -165,9 +165,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 229,
+    "responseTime": 187,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:46.786Z"
+    "checkedAt": "2026-08-16T10:09:03.563Z"
   },
   {
     "name": "MorrisCRM",
@@ -175,9 +175,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 287,
+    "responseTime": 252,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:46.851Z"
+    "checkedAt": "2026-08-16T10:09:03.637Z"
   },
   {
     "name": "Mr. Asphalt",
@@ -185,9 +185,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 285,
+    "responseTime": 287,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:46.846Z"
+    "checkedAt": "2026-08-16T10:09:03.666Z"
   },
   {
     "name": "Northwoods Whitetails",
@@ -195,9 +195,9 @@
     "platform": "Shopify",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 869,
+    "responseTime": 820,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:47.432Z"
+    "checkedAt": "2026-08-16T10:09:04.204Z"
   },
   {
     "name": "Open Door Real Estate & Management",
@@ -205,9 +205,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 96,
+    "responseTime": 101,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:47.530Z"
+    "checkedAt": "2026-08-16T10:09:04.310Z"
   },
   {
     "name": "Premier Pavements",
@@ -215,9 +215,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 152,
+    "responseTime": 191,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:47.592Z"
+    "checkedAt": "2026-08-16T10:09:04.403Z"
   },
   {
     "name": "Quality Solar",
@@ -225,9 +225,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 198,
+    "responseTime": 181,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:47.637Z"
+    "checkedAt": "2026-08-16T10:09:04.392Z"
   },
   {
     "name": "Redwing Car Wash",
@@ -235,9 +235,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 212,
+    "responseTime": 250,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:47.655Z"
+    "checkedAt": "2026-08-16T10:09:04.467Z"
   },
   {
     "name": "RSI Home Improvement",
@@ -245,9 +245,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 242,
+    "responseTime": 333,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:47.685Z"
+    "checkedAt": "2026-08-16T10:09:04.550Z"
   },
   {
     "name": "Saylor-Beall",
@@ -255,9 +255,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 418,
+    "responseTime": 1975,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:48.143Z"
+    "checkedAt": "2026-08-16T10:09:06.586Z"
   },
   {
     "name": "SFC Exteriors",
@@ -265,9 +265,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 407,
+    "responseTime": 353,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:48.100Z"
+    "checkedAt": "2026-08-16T10:09:04.911Z"
   },
   {
     "name": "Somerset Painting & Home Improvements",
@@ -275,9 +275,9 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 229,
+    "responseTime": 191,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:47.919Z"
+    "checkedAt": "2026-08-16T10:09:04.747Z"
   },
   {
     "name": "Stripe King",
@@ -285,9 +285,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 294,
+    "responseTime": 614,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:47.987Z"
+    "checkedAt": "2026-08-16T10:09:05.172Z"
   },
   {
     "name": "Twisted Nock Taxidermy",
@@ -295,9 +295,9 @@
     "platform": "MorrisCRM",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 397,
+    "responseTime": 344,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:48.092Z"
+    "checkedAt": "2026-08-16T10:09:04.903Z"
   },
   {
     "name": "United Solar Solutions",
@@ -305,8 +305,8 @@
     "platform": "WordPress",
     "status": "up",
     "statusCode": 200,
-    "responseTime": 65,
+    "responseTime": 74,
     "error": null,
-    "checkedAt": "2026-08-16T09:46:48.215Z"
+    "checkedAt": "2026-08-16T10:09:06.668Z"
   }
 ]
