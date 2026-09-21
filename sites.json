@@ -35,6 +35,11 @@
     "platform": "WordPress"
   },
   {
+    "name": "Delight Builder Services",
+    "url": "https://delightbuilderservices.com/",
+    "platform": "MorrisCRM"
+  },
+  {
     "name": "Delight Remodel & Design",
     "url": "https://delightremodel.com/",
     "platform": "WordPress"
@@ -63,11 +68,6 @@
     "name": "K Fedewa",
     "url": "https://kfedewabuilders.com/",
     "platform": "WordPress"
-  },
-  {
-    "name": "Leo's Painting & Associates",
-    "url": "https://leoshomepainting.com/",
-    "platform": "MorrisCRM"
   },
   {
     "name": "Looking Glass Brewing Company",
@@ -100,6 +100,11 @@
     "platform": "Shopify"
   },
   {
+    "name": "Olympian Tool",
+    "url": "https://olympiantool.com/",
+    "platform": "WordPress"
+  },
+  {
     "name": "Open Door Real Estate & Management",
     "url": "https://odreintegrity.com/",
     "platform": "WordPress"
@@ -128,7 +133,14 @@
     "name": "Saylor-Beall",
     "url": "https://www.saylor-beall.com/",
     "platform": "WordPress",
-    "ignoreStatusCodes": [415]
+    "ignoreStatusCodes": [
+      415
+    ]
+  },
+  {
+    "name": "Schneider Concrete",
+    "url": "https://schneiderconcrete.com/",
+    "platform": "MorrisCRM"
   },
   {
     "name": "SFC Exteriors",
@@ -153,6 +165,11 @@
   {
     "name": "United Solar Solutions",
     "url": "https://unitedsolarsolutions.com/",
+    "platform": "WordPress"
+  },
+  {
+    "name": "West Property Services",
+    "url": "https://westpropertyservicesmi.com/",
     "platform": "WordPress"
   }
 ]
